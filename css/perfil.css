@@ -1,15 +1,23 @@
+body {
+  background-color: #4d9fab !important;
+}
+.painel-form {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
 .form-inline .form-group input {
   border-radius: 4px 0px 0px 4px;
 }
 
 button.btn {
-  border-radius: 0px 4px 4px 0px;
+  border-radius: 4px 4px 4px 4px;
 }
 
 a.nova-cor,
 button.nova-cor {
-  background-color: #8ac0ca;
-  border-color: #8ac0ca;
+  background-color: #238b98;
+  border-color: #238b98;
 }
 
 .navbar {
@@ -41,11 +49,26 @@ img.avatar-perfil {
 .form-grupo1 {
   border: none !important;
   border-radius: 0 !important;
-  border-bottom: 1px solid #8ac0ca !important;
+  border-bottom: 1px solid#238b98 !important;
 }
 
 small {
-  color: #8ac0ca;
+  color: #238b98;
+}
+
+.container-form p {
+  color: #238b98;
+  font-style: italic;
+}
+
+label.form-check-label {
+  color: #238b98;
+  font-style: italic;
+}
+
+.container-form {
+  border-bottom: 1px dotted #238b98;
+  padding-bottom: 10px;
 }
 
 @media screen and(max-width: 348px) {
@@ -55,5 +78,11 @@ small {
 
   button.btn {
     border-radius: 4px 4px 4px 4px;
+  }
+}
+
+@media screen and(min-width: 992px) {
+  .navbar .navbar-expand-lg {
+    height: 100vw !important;
   }
 }

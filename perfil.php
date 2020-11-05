@@ -26,13 +26,13 @@
               <img src="./img/leao.png" alt="logo do site" width="100px" />
               </a>
             </li>
-            <li class="nav-item mx-auto">
+            <li class="nav-item mx-auto active">
                 <a class="nav-link" href="perfil.php">
                   <img class="avatar mb-2 mx-auto" src="./img/avatar.png"
                   alt="foto do usuário">
                   <span> Meu Perfil </span> </a>
             </li>
-            <li class="nav-item mx-auto active">
+            <li class="nav-item mx-auto">
                 <a class="nav-link" href="cursos.php"> Cursos <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item mx-auto">
@@ -51,8 +51,8 @@
           
           <!-- Início da seção perfil -->
           <!-- Seção 1 -->
-        <section class="container col-lg-9">
-          <div style="border-bottom: 1px solid  #238b98; padding-bottom: 10px;">
+        <section class="container col-lg-9 painel-form mt-5">
+          <div class="container-form">
             <form class="d-flex align-items-center mt-5">
                 <div class="col-lg-3 d-flex justify-content-center">
                   <img src="./img/avatar.png" class="avatar-perfil" alt="perfil" />
@@ -78,6 +78,153 @@
                     <input type="text" class="form-control form-grupo1" id="sexo" name="sexo">
                     <small for="sexo">Sexo:</small>
                     </div>
+                  </div>
+                </div> 
+            </form>  
+         </div>
+
+         <!-- Seção 2 -->
+         <div class="container-form">
+            <form class="d-flex align-items-center mt-5">
+                <div class="col-lg-12">
+
+                  <div class="row mb-3">
+                    <div class="col-lg-4 col-md-6">
+                      <input type="text" class="form-control form-grupo1" id="rua" name="rua">
+                      <small for="rua">Rua:</small>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                      <input type="text" class="form-control form-grupo1" id="bairro" name="bairro">
+                      <small for="bairro">Bairro:</small>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                      <input type="text" class="form-control form-grupo1" id="cidade" name="cidade">
+                      <small for="cidade">Cidade:</small>
+                    </div>
+
+                    <div class="col-lg-2 col-md-2">
+                    <input type="text" class="form-control form-grupo1" id="estado" name="estado">
+                    <small for="estado">Estado:</small>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4">
+                    <input type="text" class="form-control form-grupo1" id="cep" name="cep">
+                    <small for="cep">CEP:</small>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4">
+                    <input type="text" class="form-control form-grupo1" id="pais" name="pais">
+                    <small for="pais">Brasil:</small>
+                    </div>
+                  </div>
+                </div> 
+            </form>  
+         </div>
+
+         <!-- Seção 3 -->
+          <div class="container-form mt-2">
+            <p> Em que situação se enquadra? </p>
+            <form class="d-flex align-items-center mt-5">
+                <div class="col-lg-9">
+                  <div class="row mb-3">
+
+                    <div class="col-lg-3 col-md-3">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="ouvinte" id="ouvinte1" value="option1" checked>
+                        <label class="form-check-label" for="ouvinte1">
+                          Ouvinte
+                        </label>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="surdo" id="surdo2" value="option2">
+                      <label class="form-check-label" for="surdo2">
+                        Surdo
+                      </label>
+                    </div>
+                    </div>
+                  </div>
+                  
+                  <p> Grau de deficiência auditiva </p>
+                  <div class="row">                    
+                    <div class="col-lg-3 col-md-3">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="leve" id="leve1" value="option3" checked>
+                        <label class="form-check-label" for="leve1">
+                          Leve
+                        </label>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="moderada" id="moderada2" value="option4">
+                      <label class="form-check-label" for="moderada2">
+                        Moderada
+                      </label>
+                    </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-3">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="severa" id="severa1" value="option5" checked>
+                        <label class="form-check-label" for="severa1">
+                          Severa
+                        </label>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="profunda" id="profunda2" value="option6">
+                      <label class="form-check-label" for="profunda2">
+                        Surdo
+                      </label>
+                    </div>
+                    </div>
+
+                  </div>
+                </div> 
+            </form>  
+         </div>
+
+         <!-- Seção 4 -->
+          <div class="container-form" style="border-bottom: none !important;">
+            <form class="d-flex align-items-center mt-5">
+                <div class="col-lg-12">
+
+                  <div class="row mb-3">
+                    <div class="col-lg-4 col-md-6">
+                      <input type="email" class="form-control form-grupo1" id="email" name="email">
+                      <small for="email">Email:</small>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                      <input type="password" class="form-control form-grupo1" id="senha" name="senha">
+                      <small for="senha">Senha:</small>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                      <input type="password" class="form-control form-grupo1" id="conf-senha" name="conf-senha">
+                      <small for="conf-senha">Confirmar senha:</small>
+                    </div>
+
+                    <div class="col-lg-2 col-md-2 d-flex justify-content-center">
+                    <button type="submit" class="btn nova-cor text-white mt-2">Cancelar</button>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 d-flex justify-content-center">
+                    <button type="submit" class="btn nova-cor text-white mt-2">Atualizar</button>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4" style="padding-top: 30px;">
+                      <a href="#" style="color: #8ac0ca;">Cancelar minha conta...</a>
+                    </div>
+
                   </div>
                 </div> 
             </form>  
