@@ -9,7 +9,7 @@
     <script src="./js/funcoes.js"></script>
   </head>
 
-  <body>
+  <body style="background-color: #4d9fab !important;">
     <!-- Início do menu -->
     <div class="container-fluid">
       <div class="row">
@@ -18,7 +18,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-
+<div class="row">
           <div class="col collapse navbar-collapse pt-2" id="navbarSupportedContent">           
             <ul class="navbar-nav mr-auto d-flex flex-column">
               <li class="nav-item mx-auto">
@@ -45,19 +45,22 @@
                   <a class="nav-link" href="configuracao.php"> Configuração </a>
               </li>
             </ul>
-          </div>          
+          </div>  
+          
+          <!--
+          <div class="col">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          </div>
+          -->
+          </div>
         </nav>
           <!-- Fim do menu -->
           
           
           <!-- Início da seção de produtos -->
-          <section class="container col-lg-8">
-              <header>
-                <h1 style="text-align: center;">Cursos</h1>
-              </header>
-
+          <section class="container col-lg-9 mt-5 mb-5 painel-form">
             <div class="row">
-              <div class="col-xl-12 text-center">
+              <div class="col-xl-12 text-center mt-2">
                 <div class="properties__button text-center">
                         <nav class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
                           <a class="nav-link active">todos</a>
@@ -71,12 +74,16 @@
               </div>
     
               <!-- Barra de busca -->
-              <form class="form-inline d-flex justify-content-center mt-4">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="pesquisa" name="pesquisa">
+              <div class="d-flex justify-content-end">
+                <div class="input-group mt-3 mb-3 pr-0 col-lg-6">
+                  <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn nova-cor text-white" type="button" id="button-addon2">Pesquisa</button>
+                  </div>
                 </div>
-                <button type="submit" class="btn nova-cor text-white">Pesquisa</button>
-              </form>
+              </div>  
+
+              <!-- Cards -->
                     <div class="row" style="text-align: center;">
                       <div class="col-lg-4 col-md-6 col-sm-6 mt-4 mb-4 d-flex justify-content-center">
                       <div class="card" style="width: 18rem;">
