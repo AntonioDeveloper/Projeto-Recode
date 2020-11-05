@@ -1,0 +1,59 @@
+.form-inline .form-group input {
+  border-radius: 4px 0px 0px 4px;
+}
+
+button.btn {
+  border-radius: 0px 4px 4px 0px;
+}
+
+a.nova-cor,
+button.nova-cor {
+  background-color: #8ac0ca;
+  border-color: #8ac0ca;
+}
+
+.navbar {
+  flex-direction: column;
+  padding-top: 30px;
+  background-color: #238b98;
+}
+
+li.nav-item.mx-auto a.nav-link,
+.active > .nav-link {
+  color: white;
+}
+
+.collapse .navbar-collapse {
+  flex-direction: column;
+}
+
+img.avatar {
+  border-radius: 75px;
+  width: 60px;
+  display: block;
+}
+
+img.avatar-perfil {
+  width: 100px;
+  display: block;
+}
+
+.form-grupo1 {
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid #8ac0ca !important;
+}
+
+small {
+  color: #8ac0ca;
+}
+
+@media screen and(max-width: 348px) {
+  .form-inline .form-group input {
+    border-radius: 4px 4px 4px 4px;
+  }
+
+  button.btn {
+    border-radius: 4px 4px 4px 4px;
+  }
+}

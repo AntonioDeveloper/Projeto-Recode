@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Produtos - Full Stack Eletro</title>
+    <title>Home - Novo Site</title>
     <link rel="stylesheet" type="text/css" href="css/home.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="./js/funcoes.js"></script>
@@ -14,38 +14,38 @@
     <div class="container-fluid">
       <div class="row">
         <nav class="col-lg-2 navbar navbar-expand-lg navbar-light d-flex 
-        align-items-start">          
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+          align-items-start">          
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="col collapse navbar-collapse pt-2" id="navbarSupportedContent">           
-          <ul class="navbar-nav mr-auto d-flex flex-column">
-            <li class="nav-item mx-auto">
-              <a href="index.php">
-              <img src="./img/leao.png" alt="logo do site" width="100px" />
-              </a>
-            </li>
-            <li class="nav-item mx-auto">
-                <a class="nav-link" href="perfil.php">
-                  <img class="avatar mb-2 mx-auto" src="./img/avatar.png"
-                  alt="foto do usuário">
-                  <span> Meu Perfil </span> </a>
-            </li>
-            <li class="nav-item mx-auto active">
-                <a class="nav-link" href="cursos.php"> Cursos <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item mx-auto">
-                <a class="nav-link" href="certificados.php"> Certificados </a>
-            </li>
-            <li class="nav-item mx-auto">
-                <a class="nav-link" href="parceiros.php"> Parceiros </a>
-            </li>
-            <li class="nav-item mx-auto">
-                <a class="nav-link" href="configuracao.php"> Configuração </a>
-            </li>
-          </ul>
-          </div>
+          <div class="col collapse navbar-collapse pt-2" id="navbarSupportedContent">           
+            <ul class="navbar-nav mr-auto d-flex flex-column">
+              <li class="nav-item mx-auto">
+                <a href="index.php">
+                <img src="./img/leao.png" alt="logo do site" width="100px" />
+                </a>
+              </li>
+              <li class="nav-item mx-auto">
+                  <a class="nav-link" href="perfil.php">
+                    <img class="avatar mb-2 mx-auto" src="./img/avatar.png"
+                    alt="foto do usuário">
+                    <span> Meu Perfil </span> </a>
+              </li>
+              <li class="nav-item mx-auto active">
+                  <a class="nav-link" href="cursos.php"> Cursos <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item mx-auto">
+                  <a class="nav-link" href="certificados.php"> Certificados </a>
+              </li>
+              <li class="nav-item mx-auto">
+                  <a class="nav-link" href="parceiros.php"> Parceiros </a>
+              </li>
+              <li class="nav-item mx-auto">
+                  <a class="nav-link" href="configuracao.php"> Configuração </a>
+              </li>
+            </ul>
+          </div>          
         </nav>
           <!-- Fim do menu -->
           
@@ -146,38 +146,6 @@
                   </div>
                 </section>
                       <!-- Fim da seção de produtos -->
-
-                      <!-- Rodapé -->
-                      <footer class="container-fluid bg-dark text-white ">
-                                  <div class="row px-2 py-2">
-                                    <div class="col-lg-4 col-md-6 col-sm-6">
-                                      <div>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                        Id, dolor! Repellat, error in nisi fugiat minima quidem 
-                                        ratione perspiciatis iste, libero sapiente saepe atque quo 
-                                        cum numquam, sit incidunt quibusdam?
-                                      </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6">
-                                          <div>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                            Id, dolor! Repellat, error in nisi fugiat minima quidem 
-                                            ratione perspiciatis iste, libero sapiente saepe atque quo 
-                                            cum numquam, sit incidunt quibusdam?
-                                          </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6 col-sm-6">
-                                              <div>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                                Id, dolor! Repellat, error in nisi fugiat minima quidem 
-                                                ratione perspiciatis iste, libero sapiente saepe atque quo 
-                                                cum numquam, sit incidunt quibusdam?
-                                              </div>
-                                          </div>
-                                      </div>
-                               
-                <p>&copy 2020 Recode Pro.</p>
-                </footer>
           </div>
         </div>
 
