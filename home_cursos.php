@@ -6,7 +6,6 @@
     <title>Home - Novo Site</title>
     <link rel="stylesheet" type="text/css" href="css/home.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="./js/funcoes.js"></script>
   </head>
 
   <body style="background-color: #4d9fab !important;">
@@ -27,13 +26,13 @@
                 </a>
               </li>
               <li class="nav-item mx-auto">
-                  <a class="nav-link" href="perfil.php">
+                  <a class="nav-link" href="perfil_usuario.php">
                     <img class="avatar mb-2 mx-auto" src="./img/avatar.png"
                     alt="foto do usuário">
                     <span> Meu Perfil </span> </a>
               </li>
               <li class="nav-item mx-auto active">
-                  <a class="nav-link" href="cursos.php"> Cursos <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="home_cursos.php"> Cursos <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item mx-auto">
                   <a class="nav-link" href="certificados.php"> Certificados </a>

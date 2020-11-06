@@ -27,13 +27,13 @@
               </a>
             </li>
             <li class="nav-item mx-auto active">
-                <a class="nav-link" href="perfil.php">
+                <a class="nav-link" href="perfil_usuario.php">
                   <img class="avatar mb-2 mx-auto" src="./img/avatar.png"
                   alt="foto do usuário">
                   <span> Meu Perfil </span> </a>
             </li>
             <li class="nav-item mx-auto">
-                <a class="nav-link" href="cursos.php"> Cursos <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="home_cursos.php"> Cursos <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item mx-auto">
                 <a class="nav-link" href="certificados.php"> Certificados </a>
